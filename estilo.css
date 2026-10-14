@@ -1,4 +1,12 @@
+* {
+    border: 1px solid rgb(25, 0, 255);
+}
+
 body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: aqua;
     margin: 0;
     padding: 0;
@@ -6,5 +14,30 @@ body {
 }
 
 .main-title {
-    color: #385555;
+    color: #385555;    
 }
+
+.block-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
